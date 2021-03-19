@@ -1,0 +1,63 @@
+:root{
+    --blanco: #ffffff;
+    --negro: #000000;
+    --amarillo: #F2B100;
+    --grisClaro: #F2F3F7;
+    --grisOscuro: #3f3f3f;
+    --verde: #71BC00;
+    --verdeOscuro: #69AE02;
+    --verdeClaro: #DDFCAF;
+    --azulClaro: #2C5BBB;
+    --azulOscuro: #26478A;
+    --rojo: #D92121;
+    --amarilloClaro: #FFFADF;
+
+        /* Font/text values */
+    --unnamed-font-family-roboto: Roboto;
+    --unnamed-font-style-normal: normal;
+    --unnamed-font-weight-bold: bold;
+    --unnamed-font-weight-normal: normal;
+    --unnamed-font-weight-medium: medium;
+    --unnamed-font-size-14: 14px;
+    --unnamed-font-size-16: 16px;
+    --unnamed-font-size-20: 20px;
+    --unnamed-font-size-25: 25px;
+    --unnamed-font-size-30: 30px;
+    --unnamed-font-size-40: 40px;
+    --unnamed-font-size-60: 60px;
+    --unnamed-character-spacing-0: 0px;
+    --unnamed-line-spacing-2: 2px;
+    --unnamed-line-spacing-4: 4px;
+    --unnamed-line-spacing-6: 6px;
+    --unnamed-line-spacing-8: 8px;
+    --unnamed-line-spacing-12: 12px;
+    --unnamed-line-spacing-16: 16px;
+    --unnamed-line-spacing-17: 17px;
+    --unnamed-line-spacing-19: 19px;
+    --unnamed-line-spacing-24: 24px;
+    --unnamed-line-spacing-25: 25px;
+    --unnamed-line-spacing-30: 30px;
+    --unnamed-line-spacing-37: 37px;
+    --unnamed-line-spacing-48: 48px;
+    --unnamed-line-spacing-72: 72px;
+
+    font-family: var(--unnamed-font-family-roboto);
+
+}
+
+/* Change autocomplete styles in WebKit */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid var(--verde);
+  -webkit-text-fill-color:#000000;
+  -webkit-box-shadow: 0 0 0px 1000px #ffffff inset;
+  box-shadow: 0 0 0px 1000px #ffffff inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
